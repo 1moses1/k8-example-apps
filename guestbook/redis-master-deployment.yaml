@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: registry.k8s.io/redis:e2e  # or just image: redis
+        image: redis:6.2.6 
         resources:
           requests:
             cpu: 100m
